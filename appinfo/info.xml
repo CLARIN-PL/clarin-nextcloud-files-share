@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>clarinplshare</id>
+    <name>Clarin P L Share</name>
+    <summary>App which support files sharing with other Clarin.PL services.</summary>
+    <description><![CDATA[App which support files sharing with other Clarin.PL services.]]></description>
+    <licence>agpl</licence>
+    <author mail="kamil.tagowski@pwr.edu.pl" >Kamil Tagowski</author>
+    <version>0.0.1</version>
+    <namespace>ClarinPLShare</namespace>
+    <category>files</category>
+    <bugs>https://github.com/CLARIN-PL/</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
